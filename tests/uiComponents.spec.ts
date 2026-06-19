@@ -6,7 +6,7 @@ test.beforeEach(async ({ page }) => {
 
 });
 
-test.describe.only('Form Layouts Page', () => {
+test.describe('Form Layouts Page', () => {
     test.beforeEach(async ({ page }) => {
         await page.getByText('Forms').click()
         await page.getByText('Form Layouts').click()
